@@ -310,27 +310,34 @@ Out[8]= Notebook[{Cell[CellGroupData[{Cell[BoxData[RowBox[{ListPlot, [,
  
 >         ExpressionUUID -> 02c909a3-5313-4268-8232-d93442888741]}, Open]], 
  
->     Cell[CellGroupData[{Cell[BoxData[RowBox[{SetDirectory, [, 
+>     Cell[BoxData[RowBox[{SetDirectory, [, 
  
->            RowBox[{NotebookDirectory, [, ]}], ]}]], Input, 
+>         RowBox[{NotebookDirectory, [, ]}], ]}]], Input, 
  
->         CellChangeTimes -> 
+>      CellChangeTimes -> 
  
-                       9            9              9            9
->          {{3.90185 10 , 3.90185 10 }, {3.90185 10 , 3.90185 10 }}, 
+                    9            9              9            9
+>       {{3.90185 10 , 3.90185 10 }, {3.90185 10 , 3.90185 10 }}, 
  
->         CellLabel -> In[7]:=, 
+>      CellLabel -> In[7]:=, ExpressionUUID -> 
  
->         ExpressionUUID -> 4f115ca2-f737-4e30-a070-7997046e585e], 
+>       4f115ca2-f737-4e30-a070-7997046e585e], 
+ 
+>     Cell[CellGroupData[{Cell[BoxData["/home/stnav/Projects/template-mathema\
+ 
+                                                         9
+>           tica"], Input, CellChangeTimes -> {3.90187 10 }, 
+ 
+>         CellLabel -> In[81]:=, 
+ 
+>         ExpressionUUID -> 116984da-c9ea-4e1c-85bf-0395c64d51b6], 
  
 >        Cell[BoxData["/home/stnav/Projects/template-mathematica"], Output, 
  
-                                        9            9            9
->         CellChangeTimes -> {3.90185 10 , 3.90187 10 , 3.90187 10 }, 
+                                        9
+>         CellChangeTimes -> {3.90187 10 }, CellLabel -> Out[81]=, 
  
->         CellLabel -> Out[7]=, 
- 
->         ExpressionUUID -> 116984da-c9ea-4e1c-85bf-0395c64d51b6]}, Open]], 
+>         ExpressionUUID -> 814cab40-c2ad-44ad-abb5-2dfd88fc70cd]}, Open]], 
  
 >     Cell[CellGroupData[{Cell[BoxData[{RowBox[{RowBox[{list, =, 
  
@@ -457,11 +464,11 @@ Out[8]= Notebook[{Cell[CellGroupData[{Cell[BoxData[RowBox[{ListPlot, [,
                        9            9              9            9
 >           {3.90187 10 , 3.90187 10 }, {3.90187 10 , 3.90187 10 }}, 
  
->         CellLabel -> In[72]:=, 
+>         CellLabel -> In[82]:=, 
  
 >         ExpressionUUID -> 61511343-04f3-4614-8354-937b24ba7176], 
  
->        Cell[BoxData["D\tNotebook/sample.nb\nA\tsample.nb\n"], Output, 
+>        Cell[BoxData["M\tNotebook/sample.nb\nA\tsample.nb\n"], Output, 
  
 >         CellChangeTimes -> 
  
@@ -474,14 +481,16 @@ Out[8]= Notebook[{Cell[CellGroupData[{Cell[BoxData[RowBox[{ListPlot, [,
                        9            9             9
 >           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
  
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 }, CellLabel -> Out[72]=, 
+                       9            9             9            9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 3.90187 10 }, 
  
->         ExpressionUUID -> 654c0060-5f7e-43c5-9575-fb4c1a55c818], 
+>         CellLabel -> Out[82]=, 
+ 
+>         ExpressionUUID -> 81912805-3d76-4dab-a752-20e226d768c2], 
  
 >        Cell[BoxData[RowBox[{{, 
  
->            RowBox[{RowBox[{{, RowBox[{"D", ,, "Notebook/sample.nb"}], }}], 
+>            RowBox[{RowBox[{{, RowBox[{"M", ,, "Notebook/sample.nb"}], }}], 
  
 >              ,, RowBox[{{, RowBox[{"A", ,, "sample.nb"}], }}]}], }}]], 
  
@@ -496,70 +505,16 @@ Out[8]= Notebook[{Cell[CellGroupData[{Cell[BoxData[RowBox[{ListPlot, [,
                        9            9             9
 >           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
  
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 }, CellLabel -> Out[73]=, 
+                       9            9             9            9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 3.90187 10 }, 
  
->         ExpressionUUID -> 6da252f9-3478-497a-89a9-c71d817efd51], 
+>         CellLabel -> Out[83]=, 
  
->        Cell[BoxData[RowBox[{{, 
- 
->            RowBox[{{, RowBox[{"A", ,, "sample.nb"}], }}], }}]], Output, 
- 
->         CellChangeTimes -> 
- 
-                       9            9              9            9
->          {{3.90186 10 , 3.90186 10 }, {3.90187 10 , 3.90187 10 }, 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 }, CellLabel -> Out[74]=, 
- 
->         ExpressionUUID -> 24dd37ae-03d8-40b0-bcb9-fd0f1053b4bc], 
- 
->        Cell[BoxData[RowBox[{{, "sample.nb", }}]], Output, 
- 
->         CellChangeTimes -> 
- 
-                       9            9              9            9
->          {{3.90186 10 , 3.90186 10 }, {3.90187 10 , 3.90187 10 }, 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 }, CellLabel -> Out[75]=, 
- 
->         ExpressionUUID -> 063f5775-49e7-4666-937a-1982fda39ea1], 
- 
->        Cell[BoxData[RowBox[{{, "Rendered/sample.pdf", }}]], Output, 
- 
->         CellChangeTimes -> 
- 
-                       9            9              9            9
->          {{3.90186 10 , 3.90186 10 }, {3.90187 10 , 3.90187 10 }, 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 }, CellLabel -> Out[76]=, 
- 
->         ExpressionUUID -> b3b902fb-4249-4f60-8a0c-3d9e9ada471e], 
+>         ExpressionUUID -> f6674a5e-0190-4aa7-8670-3ae8885120bf], 
  
 >        Cell[BoxData[RowBox[{{, 
  
->            RowBox[{RowBox[{{, RowBox[{"D", ,, "Notebook/sample.nb"}], }}], 
+>            RowBox[{RowBox[{{, RowBox[{"M", ,, "Notebook/sample.nb"}], }}], 
  
 >              ,, RowBox[{{, RowBox[{"A", ,, "sample.nb"}], }}]}], }}]], 
  
@@ -574,14 +529,64 @@ Out[8]= Notebook[{Cell[CellGroupData[{Cell[BoxData[RowBox[{ListPlot, [,
                        9            9             9
 >           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
  
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 }, CellLabel -> Out[77]=, 
+                       9            9             9            9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 3.90187 10 }, 
  
->         ExpressionUUID -> bc83689d-fdfb-4909-98f3-5a629fc31ba6], 
+>         CellLabel -> Out[84]=, 
+ 
+>         ExpressionUUID -> eccdadc3-067e-4a93-84ba-b11b3b847ca0], 
  
 >        Cell[BoxData[RowBox[{{, 
  
->            RowBox[{{, RowBox[{"D", ,, "Notebook/sample.nb"}], }}], }}]], 
+>            RowBox[{"Notebook/sample.nb", ,, "sample.nb"}], }}]], Output, 
+ 
+>         CellChangeTimes -> 
+ 
+                       9            9              9            9
+>          {{3.90186 10 , 3.90186 10 }, {3.90187 10 , 3.90187 10 }, 
+ 
+                       9            9             9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
+ 
+                       9            9             9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
+ 
+                       9            9             9            9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 3.90187 10 }, 
+ 
+>         CellLabel -> Out[85]=, 
+ 
+>         ExpressionUUID -> 34b845df-16d6-48dc-9e88-0bc642da5e9b], 
+ 
+>        Cell[BoxData[RowBox[{{, 
+ 
+>            RowBox[{"Rendered/Notebook/sample.pdf", ,, 
+ 
+>              "Rendered/sample.pdf"}], }}]], Output, 
+ 
+>         CellChangeTimes -> 
+ 
+                       9            9              9            9
+>          {{3.90186 10 , 3.90186 10 }, {3.90187 10 , 3.90187 10 }, 
+ 
+                       9            9             9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
+ 
+                       9            9             9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
+ 
+                       9            9             9            9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 3.90187 10 }, 
+ 
+>         CellLabel -> Out[86]=, 
+ 
+>         ExpressionUUID -> a80da9cd-fd59-4fc7-8da8-7996f277f6cd], 
+ 
+>        Cell[BoxData[RowBox[{{, 
+ 
+>            RowBox[{RowBox[{{, RowBox[{"M", ,, "Notebook/sample.nb"}], }}], 
+ 
+>              ,, RowBox[{{, RowBox[{"A", ,, "sample.nb"}], }}]}], }}]], 
  
 >         Output, CellChangeTimes -> 
  
@@ -594,30 +599,14 @@ Out[8]= Notebook[{Cell[CellGroupData[{Cell[BoxData[RowBox[{ListPlot, [,
                        9            9             9
 >           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
  
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 }, CellLabel -> Out[78]=, 
+                       9            9             9            9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 3.90187 10 }, 
  
->         ExpressionUUID -> cafde809-0a72-418a-9d76-41ec9a8fee7e], 
+>         CellLabel -> Out[87]=, 
  
->        Cell[BoxData[RowBox[{{, "Notebook/sample.nb", }}]], Output, 
+>         ExpressionUUID -> 307dc0dd-83d4-4ba1-bee9-111633a76116], 
  
->         CellChangeTimes -> 
- 
-                       9            9              9            9
->          {{3.90186 10 , 3.90186 10 }, {3.90187 10 , 3.90187 10 }, 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
- 
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 }, CellLabel -> Out[79]=, 
- 
->         ExpressionUUID -> a88511e7-7ac5-4552-8af3-62ac7954accb], 
- 
->        Cell[BoxData[RowBox[{{, Null, }}]], Output, 
+>        Cell[BoxData[RowBox[{{, }}]], Output, 
  
 >         CellChangeTimes -> 
  
@@ -630,10 +619,52 @@ Out[8]= Notebook[{Cell[CellGroupData[{Cell[BoxData[RowBox[{ListPlot, [,
                        9            9             9
 >           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
  
-                       9            9             9
->           {3.90187 10 , 3.90187 10 }, 3.90187 10 }, CellLabel -> Out[80]=, 
+                       9            9             9            9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 3.90187 10 }, 
  
->         ExpressionUUID -> b98fee93-a280-4df5-8d16-cdb2ed49b455]}, Open]]}, 
+>         CellLabel -> Out[88]=, 
+ 
+>         ExpressionUUID -> fb5c7846-2640-426f-be69-52943003ad32], 
+ 
+>        Cell[BoxData[RowBox[{{, }}]], Output, 
+ 
+>         CellChangeTimes -> 
+ 
+                       9            9              9            9
+>          {{3.90186 10 , 3.90186 10 }, {3.90187 10 , 3.90187 10 }, 
+ 
+                       9            9             9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
+ 
+                       9            9             9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
+ 
+                       9            9             9            9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 3.90187 10 }, 
+ 
+>         CellLabel -> Out[89]=, 
+ 
+>         ExpressionUUID -> 65408a07-74a1-4882-b3d1-0014f10a2748], 
+ 
+>        Cell[BoxData[RowBox[{{, }}]], Output, 
+ 
+>         CellChangeTimes -> 
+ 
+                       9            9              9            9
+>          {{3.90186 10 , 3.90186 10 }, {3.90187 10 , 3.90187 10 }, 
+ 
+                       9            9             9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
+ 
+                       9            9             9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 
+ 
+                       9            9             9            9
+>           {3.90187 10 , 3.90187 10 }, 3.90187 10 , 3.90187 10 }, 
+ 
+>         CellLabel -> Out[90]=, 
+ 
+>         ExpressionUUID -> ca0b235c-8208-4f10-8966-1b6783873696]}, Open]]}, 
  
 >    WindowSize -> {606., 665.25}, 
  
@@ -649,6 +680,5 @@ In[9]:=
 In[10]:= In[10]:= 
 In[11]:=                   
 In[12]:=                   
-In[13]:=                                                                                                                                                                                                                                                             
+In[13]:=                                                                                                                                                                                                                                                                      
 In[14]:= In[14]:= 
-In[15]:= In[15]:= 
