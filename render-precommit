@@ -2,11 +2,15 @@
 
 list = RunProcess[{"git", "diff", "--cached", "--name-status"}, 
   "StandardOutput"]
+
 paths = Map[(StringSplit[#, "\t"] &), StringSplit[list, "\n"]]
 paths = Select[paths, #[[1]] != "D" && StringEndsQ[#[[2]], ".nb"] &]
 paths = paths[[;; , 2]]
+Map[Export["Rendered/" <> (StringReplace[#, ".nb" -> ".pdf"]), 
+   Import[#]] &, paths]
 
-Map[
- Export["Rendered/" <> (StringReplace[#, ".nb" -> ".pdf"]), 
-   Import[#]] &, paths ]
-RunProcess[{"git", "add", "."}]
+paths = Map[(StringSplit[#, "\t"] &), StringSplit[list, "\n"]]
+paths = Select[paths, #[[1]] == "D" && StringEndsQ[#[[2]], ".nb"] &]
+paths = paths[[;; , 2]]
+Map[DeleteFile[
+   "Rendered/" <> (StringReplace[#, ".nb" -> ".pdf"])] &, paths]
