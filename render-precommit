@@ -9,4 +9,4 @@ paths = paths[[;; , 2]]
 Map[
  Export["Rendered/" <> (StringReplace[#, ".nb" -> ".pdf"]), 
    Import[#]] &, paths ]
-Run[{"git", "add", "*.pdf"}]
+RunProcess[{"git", "add", "."}]
