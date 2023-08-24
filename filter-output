@@ -1,0 +1,9 @@
+#!/usr/bin/env wolframscript
+
+$outputCellPattern = Cell[_, ___, "Output", ___];
+
+nbin := ImportString[$ScriptInputString, "NB"];
+nb := DeleteCases[nbin, $outputCellPattern, Infinity];
+ExportString[nb, "NB"] // Print
+
+```
